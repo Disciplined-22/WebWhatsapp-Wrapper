@@ -235,7 +235,7 @@ class WhatsAPIDriver(object):
 
                 self.logger.info("Starting webdriver")
                 self.driver = webdriver.Firefox(
-                    capabilities=capabilities,
+                    
                     options=options,
                     executable_path=executable_path,
                     **extra_params,
